@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Allow all origins
 
 # Use OpenAI API Key from environment variables
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("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")
 
 @app.route('/chat', methods=['POST'])
 def chat():
